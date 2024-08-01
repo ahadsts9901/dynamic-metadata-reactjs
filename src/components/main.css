@@ -1,0 +1,21 @@
+.navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #18171f;
+    padding: 1.5em 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar>p {
+    cursor: pointer;
+    color: #e6e5ea;
+}
+
+.navbar>p:hover {
+    color: #9ca3af;
+}
