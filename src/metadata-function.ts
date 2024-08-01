@@ -18,6 +18,7 @@ export const updateMetadata =
         setMetaTag('og:title', ogTitle || "Reactjs Dynamic Metadata");
         setMetaTag('og:description', ogDescription || "Reactjs Dynamic Metadata OG Description");
         setMetaTag('og:image', ogImageUrl || defaultUrl);
+        setMetaTag('og:type', "website");
 
         setMetaTag('description', description || "Reactjs Dynamic Metadata Description");
 
